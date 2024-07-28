@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\buffalo-48.png" />
+    <None Remove="Resources\cheetah-48.png" />
+    <None Remove="Resources\cheetah.png" />
+    <None Remove="Resources\cover-buffalo.jpg" />
+    <None Remove="Resources\cover-cheetah.jpg" />
+    <None Remove="Resources\cover-elephant.jpg" />
+    <None Remove="Resources\cover-giraffe.jpg" />
+    <None Remove="Resources\cover-lion.jpg" />
+    <None Remove="Resources\elephant.png" />
+    <None Remove="Resources\giraffe.png" />
+    <None Remove="Resources\lion-48.png" />
+    <None Remove="Resources\lion.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\buffalo-48.png" />
+    <Resource Include="Resources\cheetah-48.png" />
+    <Resource Include="Resources\cheetah.png" />
+    <Resource Include="Resources\cover-buffalo.jpg" />
+    <Resource Include="Resources\cover-cheetah.jpg" />
+    <Resource Include="Resources\cover-elephant.jpg" />
+    <Resource Include="Resources\cover-giraffe.jpg" />
+    <Resource Include="Resources\cover-lion.jpg" />
+    <Resource Include="Resources\elephant.png" />
+    <Resource Include="Resources\giraffe.png" />
+    <Resource Include="Resources\lion-48.png" />
+    <Resource Include="Resources\lion.png" />
+  </ItemGroup>
+
+</Project>
